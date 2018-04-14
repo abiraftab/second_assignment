@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin: 0 auto;
+}
+body{
+    font-family: arial;
+    margin-top: 20px
+}
+.container{
+    width:960px;
+    background-color: #35363b;
+}
+img{
+    max-width: 100%;
+}
+.header{
+    overflow: hidden;
+    height: 50px;
+    margin-bottom: 40px;
+}
+.margin_top{
+    margin-top: 15px;
+}
+.logo{
+    float:left;
+    width:20%;
+    display: block;
+}
+.manu{
+    float: left;
+    width: 80%;
+    margin-top: 5px;
+}
+.manu ul{
+    list-style: none;
+    margin-left: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 26%;
+}
+.manu ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+.manu ul li a{
+    text-decoration: none;
+    color:#95969b;
+    
+}
+.manu ul li.active a{
+    border-bottom: 1px solid #d17685;
+}
+.manu ul li a:hover{
+    border-bottom: 1px solid #d17685;
+
+}
+.main_contant{
+    overflow: hidden;
+    padding: 10px;
+}
+.image>img{
+    float:left;
+    width: 21%;
+    padding: 20px;
+}
+.contant_details{
+    float:left;
+    width: 60%;
+    padding: 20px;
+}
+.contant_details h1{
+    color:#d9dadf;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #848891;
+}
+.contant_details span{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.portfolio> ul{
+    list-style: none;
+}
+.portfolio > ul li{
+    margin-bottom: 8px;
+    color:#ddd;
+}
+.portfolio > ul li:last-child{
+    margin-bottom:none;
+}
+.my_footer{
+    min-height: 50px;
+    background: #008f5f;
+    border-bottom: 5px solid #35363b;
+}
+.my_footer > ul{
+    list-style: none;
+}
+.my_footer > ul li{
+    display: inline-block;
+    text-align: center;
+    padding: 20px 50px;
+    margin-left: 60px;
+}
+.my_footer > ul li a{
+    color:#fff;
+    font-size: 20px;
+}
+.my_footer > ul li a:hover{
+    color:#994be2;
+    transition:.5s all ease;
+}
+.para{
+    padding: 15px;
+    overflow: hidden;
+}
+.pone{
+    color:#848891;
+    text-align: justify;
+  
+}
+.ptwo{
+    color:#848891;
+    text-align: justify;
+}
+.heading_para{
+    width:50%;
+    float: left;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.heading_para > h1{
+    color:#fff;
+    margin-bottom: 20px;
+
+}
+.heading_para > h1:hover{
+    color:#008f5f;
+    transition: .5s all ease;
+}
+.head_para{
+    width:50%;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.head_para > h1{
+    color:#fff;
+    margin-bottom: 20px;
+    transition: .5s all ease;
+}
+.head_para > h1:hover{
+    color:#008f5f;
+}
